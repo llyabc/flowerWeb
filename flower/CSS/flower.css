@@ -1,0 +1,533 @@
+body{
+    width:100%;
+
+}
+/*导航部分开始*/
+.nav{
+    width: 100%;
+    height:79px;
+    background:rgba(0, 0, 0, 0.15);
+    margin:0 auto;
+    position: fixed;
+    z-index: 999;
+}
+.container{
+    width:1170px;
+}
+.header{
+    height:100%;
+    margin:0 auto;
+}
+.header-logo{
+    width: 150px;
+    height: 100%;
+    cursor:pointer;
+    float: left;
+}
+.header-logo img{
+    width:100%;
+    height:50px;
+    margin:15px 0px;
+    box-sizing: border-box;
+}
+.header-content{
+    width: 602px;
+    height: 100%;
+    text-align: center;
+    float: right;
+}
+.header li{
+    float: left;
+    cursor: pointer;
+}
+.header li>a:hover{
+    color:#62a8ea ;
+}
+.nav-list{
+    width: 86px;
+    height: 79px;
+    font-size: 14px;
+    line-height: 79px;
+}
+.nav-list-connect{
+    color: #fff;
+}
+.connect-special{
+    color:#62a8ea;
+}
+/*导航部分结束*/
+/*轮播图部分开始*/
+.banner-box{
+    width: 100%;
+    height: 759px;
+    cursor: pointer;
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.banner>a{
+    display: block;
+    width: 15%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    text-align: center;
+    z-index: 998;
+}
+.banner>a:hover{
+    background: rgba(0,0,0,0.05);
+}
+.banner>a:hover .btn-img{
+    width: 24px;
+}
+.banner-btn{
+    width: 24px;
+    height: 24px;
+    color: white;
+    position: relative;
+}
+.banner-btn img{
+    width:0;
+    height: 24px;
+    position: absolute;
+    top: 367.5px;
+    left:89.172px;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+}
+.banner-img{
+    width: 100%;
+    height: 759px;
+    background: #62a8ea;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.banner-pointer{
+    width: 809px;
+    height: 21px;
+    position: absolute;
+    bottom: -100px;
+    left: 270px;
+}
+.pointer-1{
+    width: 10px;
+    height: 10px;
+    background: rgba(0,0,0,.3);
+    margin: 5px 404px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.pointer-2{
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,.3);
+    margin: 5px 404px;
+    border-radius: 5px;
+    position: absolute;
+    left: 20px;
+    bottom: 1px;
+    cursor:pointer;
+}
+/*轮播图部分结束*/
+/*轮播图2部分开始*/
+.banner2-box{
+    width: 100%;
+    height: 744px;
+    margin: 0 auto;
+}
+.banner2{
+    width: 100%;
+    height: 744px;
+    padding-top: 70px;
+    box-sizing:border-box;
+}
+.banner2-container{
+    width: 1280px;
+    height: 674px;
+    background: #ffffff;
+    margin:auto;
+    position: relative;
+}
+.banner2-title{
+    width: 100%;
+    height: 42px;
+    background: #ffffff;
+    text-align: center;
+    margin-bottom: 11px;
+    position: relative;
+}
+.banner2-title h3{
+    color: #37474f;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    position: absolute;
+    left: 530px;
+}
+/*.zhezhao{*/
+    /*width: 58px;*/
+    /*height: 0px;*/
+    /*background: rgba(0,0,0,0.6);*/
+    /*position: absolute;*/
+    /*left: 698px;*/
+    /*top: 5px;*/
+/*}*/
+/*.img-liang img:hover .zhezhao{*/
+    /*height:32px;*/
+/*}*/
+.img-liang{
+    float: right;
+    margin-right: 525px;
+}
+.img-liang img{
+    width: 62px;
+    height: 32px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.banner2-container{
+    position: relative;
+}
+.banner2-container p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #5e7387;
+}
+.banner2-small-title{
+    text-align: center;
+}
+.banner2-infos{
+    width: 1020px;
+    height: 476px;
+    padding: 0px 60px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.banner2-infos li{
+    float: left;
+}
+.b2-info1{
+    width: 320px;
+    height: 418px;
+    margin-right: 20px;
+}
+.info-special{
+    margin-right: 0px;
+}
+.b2-info1-picture{
+    width: 100%;
+    height: 320px;
+    border-radius:50%;
+}
+.b2-info1-picture img{
+     width: 100%;
+     height: 320px;
+     border-radius:50%;
+ }
+.b2-info1 h4{
+    margin: 11px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #37474f;
+    text-align: center;
+}
+.b2-info1 p{
+    font-size: 14px;
+    color: #757575;
+    margin: 0 0 11px;
+}
+.search-info{
+    width: 320px;
+    height: 34px;
+    padding: 6px 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    background: #f96868;
+    text-align: center;
+    cursor: pointer;
+}
+.search-info i{
+    font-size: 20px;
+    vertical-align: middle;
+    color: #9C2115;
+}
+.search-info span{
+    line-height: 22px;
+    color: #ffffff;
+}
+.banner2-btns>div{
+    width: 30px;
+    height:30px;
+    background: rgba(163,175,183,0.6);
+    border-radius:50%;
+    position:absolute;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.banner2-btns>div>img{
+    width: 24px;
+    height: 24px;
+    z-index: 2;
+}
+.banner2-btns>div:hover{
+    background:#a3afb7;
+}
+#banner2-pre{
+    top: 50%;
+    left: 80px;
+}
+#banner2-next{
+    top: 50%;
+    left: 1155px;
+}
+/*轮播图2部分结束*/
+/*素馨花语分类部分开始*/
+.kinds{
+    width: 1349px;
+    height: 635px;
+    background: #f5f5f5;
+    padding: 70px 0px;
+}
+.kinds-container{
+    width: 1280px;
+    height: 630px;
+    margin:auto;
+    position: relative;
+}
+
+.kinds2-title{
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    margin-bottom: 11px;
+    position: relative;
+}
+.kinds2-title h3{
+    color: #37474f;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    position: absolute;
+    left: 530px;
+}
+.kind{
+    width: 1170px;
+    height: 600px;
+    margin: 0px 55px;
+}
+.flower-kinds{
+    width: 100%;
+    height: 100%;
+}
+.flower-kinds li{
+    width: 555px;
+    height: 120px;
+    background: #f5f5f5;
+    margin-top: 30px;
+    padding: 0px 15px;
+    float: left;
+}
+.kinds-info{
+    position: relative;
+}
+.kinds-info img{
+    width: 160px;
+    height: 96px;
+    margin: 12px 0px;
+    float: left;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.kinds-info-text{
+    margin-left: 15px;
+    width: 398px;
+    height: 100%;
+    position: absolute;
+    left: 184px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.kinds-info-text a{
+    color: #2a333c;
+    font-size: 18px;
+    font-weight: 400;
+}
+.kinds-info-text a:hover{
+    color: rgba(121,181,234,0.9);
+    text-decoration:underline;
+}
+.kinds-info-text p{
+    width: 375px;
+    height: 42px;
+    color: #76838f;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 5px 0px;
+}
+/*素馨花语分类部分结束*/
+/*工作室部分开始*/
+.work{
+    width: 1349px;
+    height: 765px;
+    padding: 70px 0px;
+    margin-top: 75px;
+}
+.work-container{
+    width: 1140px;
+    height: 765px;
+    margin: auto;
+    padding: 0px 15px;
+}
+.work-container h3{
+    width: 1140px;
+    height: 43px;
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #37474f;
+}
+.work-infos{
+    width: 1080px;
+    height:612px;
+    margin-top:50px;
+    padding: 30px;
+}
+.infos-work-address{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.infos-work-address p{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    color: #222;
+    line-height: 32px;
+}
+.address-special{
+    margin-bottom: 16px;;
+}
+.address-img{
+    width: 1080px;
+    height: 340px;
+}
+/*底部*/
+footer{
+    width:100%;
+    height: 161px;
+    padding-bottom:20px;
+    background:#f2f2f2;
+    position: relative;
+}
+#we-chat-hidden{
+    width: 170px;
+    height: 236px;
+    position: absolute;
+    top: -196px;
+    left: 530px;
+}
+.hidden-img:after{
+    content: "";
+    width: 22px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 77px;
+}
+.hidden-img:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 80px;
+    transform:rotate(45deg);
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.hidden-img{
+    width: 100%;
+    height: 221px;
+    box-shadow:0 0 2px rgba(0,0,0,0.3);
+    display: none;
+}
+.hidden-img img{
+    width: 100%;
+    height: 100%;
+}
+.interval{
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    border-top:#f2f2f2 solid 2px;
+}
+.text-center{
+    width:100%;
+    height:46px;
+    padding:5px 0;
+    text-align: center;
+    line-height: 46px;
+}
+.text-center a{
+    font-size: 26px;
+    color: #62a8ea;
+    margin: 0 8px;
+}
+.text-center a>i{
+    font-family: iconfont;
+}
+.text-center a:hover{
+    font-size: 26px;
+    color: rgba(98,168,234,0.8);
+    margin: 0 8px;
+}
+#we-chat{
+    color: #83b944;
+}
+.footer-text{
+    width: 100%;
+    height: 75px;
+}
+.footer-text-container{
+    width: 1140px;
+    height: 75px;
+    padding: 0 15px;
+    margin:0 auto;
+    text-align: center;
+}
+.footer-text-container p{
+    width: 100%;
+    height: 25px;
+    color: #aaaaaa;
+    font-size: 14px;
+    line-height:25px;
+    position: relative;
+}
+.footer-text-container p>a{
+    color: #62a8ea;
+}
+.footer-text-container p>a:hover{
+    color: rgba(98,168,234,0.8);
+    text-decoration: underline;
+}
+.footer-text-container p>a img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 530px;
+}

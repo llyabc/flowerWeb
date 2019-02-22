@@ -1,0 +1,23 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+body{
+    height:100%;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1019650 */
+    src: url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.eot');
+    src: url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1019650_iawg2yvjvm.svg#iconfont') format('svg');
+}
+i{
+    font-style: normal;
+}
