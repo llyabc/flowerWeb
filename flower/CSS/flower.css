@@ -57,8 +57,13 @@ body{
 }
 /*导航部分结束*/
 /*轮播图部分开始*/
-.banner-box{
+.banner-big-box{
     width: 100%;
+    height: 759px;
+    position: relative;
+}
+.banner-box{
+    width: 1349px;
     height: 759px;
     cursor: pointer;
 }
@@ -114,31 +119,32 @@ body{
     height: 100%;
     cursor: pointer;
 }
-.banner-pointer{
-    width: 809px;
+.banner-pointer-box{
+    width: 100%;
     height: 21px;
     position: absolute;
-    bottom: -100px;
-    left: 270px;
+    bottom: 20px;
 }
-.pointer-1{
+.banner-pointers{
+    padding-top: 6px;
+    width: 32px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.banner-pointers>li{
+    cursor:pointer;
+    display: inline-block;
     width: 10px;
     height: 10px;
-    background: rgba(0,0,0,.3);
-    margin: 5px 404px;
-    border-radius: 5px;
-    cursor:pointer;
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+    float: left;
 }
-.pointer-2{
-    width: 10px;
-    height: 10px;
-    background: rgba(255,255,255,.3);
-    margin: 5px 404px;
-    border-radius: 5px;
-    position: absolute;
-    left: 20px;
-    bottom: 1px;
-    cursor:pointer;
+.banner-pointers>li.active{
+    background: rgba(255,255,255,0.3);
 }
 /*轮播图部分结束*/
 /*轮播图2部分开始*/
@@ -154,45 +160,36 @@ body{
     box-sizing:border-box;
 }
 .banner2-container{
-    width: 1280px;
+    width: 1349px;
     height: 674px;
-    background: #ffffff;
     margin:auto;
     position: relative;
 }
 .banner2-title{
-    width: 100%;
+    width: 220px;
     height: 42px;
-    background: #ffffff;
-    text-align: center;
-    margin-bottom: 11px;
+    margin: 0 auto 11px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .banner2-title h3{
+    display: block;
+    width: 161px;
+    height: 42px;
+    text-align: center;
     color: #37474f;
     font-size: 36px;
     font-weight: 300;
     line-height: 42px;
-    position: absolute;
-    left: 530px;
 }
-/*.zhezhao{*/
-    /*width: 58px;*/
-    /*height: 0px;*/
-    /*background: rgba(0,0,0,0.6);*/
-    /*position: absolute;*/
-    /*left: 698px;*/
-    /*top: 5px;*/
-/*}*/
-/*.img-liang img:hover .zhezhao{*/
-    /*height:32px;*/
-/*}*/
 .img-liang{
-    float: right;
-    margin-right: 525px;
+    width: 56px;
+    height: 42px;
+    box-sizing: border-box;
 }
 .img-liang img{
-    width: 62px;
+    width: 56px;
     height: 32px;
     margin-top: 5px;
     cursor: pointer;
@@ -286,11 +283,11 @@ body{
 }
 #banner2-pre{
     top: 50%;
-    left: 80px;
+    left: 120px;
 }
 #banner2-next{
     top: 50%;
-    left: 1155px;
+    left: 1185px;
 }
 /*轮播图2部分结束*/
 /*素馨花语分类部分开始*/

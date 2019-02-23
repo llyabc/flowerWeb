@@ -279,6 +279,7 @@ textarea{
     padding: 6px 15px;
     border: 1px solid #e4eaec;
     border-radius: 3px;
+    resize: none;
 }
 textarea::-ms-input-placeholder{
     font-size: 14px;
